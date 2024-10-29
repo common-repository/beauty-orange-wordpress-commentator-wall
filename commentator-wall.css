@@ -1,0 +1,19 @@
+/* Commentator Wall styles. Used with main php. */
+.commentator-wall {padding:0 8px;}
+.commentator-wall img{
+	margin:0 3px 3px 0;
+	vertical-align:middle;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	border:1px solid #999!important;
+	padding:1px;
+	-webkit-box-shadow:2px 2px 6px #999;
+	-moz-box-shadow:2px 2px 6px #999;
+}
+.commentator-wall a:hover img{
+	opacity:1.0;
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+}
+
